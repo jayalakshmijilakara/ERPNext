@@ -1,0 +1,43 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-05 18:42:36.841168",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_otav",
+  "storage_bin",
+  "location"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_otav",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "storage_bin",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Storage Bin "
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Location"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-05 18:50:10.334515",
+ "modified_by": "Administrator",
+ "module": "Hilltop",
+ "name": "Child product",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
